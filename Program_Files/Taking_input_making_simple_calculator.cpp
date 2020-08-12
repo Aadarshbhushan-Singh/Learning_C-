@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 int main(){
 	int num1, num2;
@@ -35,5 +36,5 @@ int main(){
 		float remainder=float(num1)/num2;  //atleast one of the operator should be float to display the float result
 		cout<<"The remainder is: "<<remainder;
 	}
-	return 0;
+	getch();
 }

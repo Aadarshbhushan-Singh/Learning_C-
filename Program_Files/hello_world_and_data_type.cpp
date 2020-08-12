@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 int main(){
 	cout<<"hello world"<<endl;
@@ -35,6 +36,6 @@ int main(){
 	a=20;
 	cout<<endl<<endl<<"The changed value of a is: "<<a;
 	//The value of b cannot be changed because it is decleared constant.
-	return 0;
+	getch();
 }
 

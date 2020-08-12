@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 int main(){
 	//Taking input from user
@@ -34,5 +35,5 @@ int main(){
 	}
 	
 	
-	return 0;
+	getch();
 }
