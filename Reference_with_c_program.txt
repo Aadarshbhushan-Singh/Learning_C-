@@ -1,0 +1,5 @@
+1) Use #include <iostream> instead of #include <stdio.h>
+2) Use using namespace std; for including standart keywords.
+3) Use cout<<"..........."; instead of printf(".........");
+4) Use cout<<"hello"<<endl"; to change line instead of printf("hello\n");
+5) Use cin>> for taking input instead of scanf("%d");
