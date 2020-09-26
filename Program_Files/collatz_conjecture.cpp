@@ -31,5 +31,5 @@ int collatz(int num, int sum){
 	//printing the vlaue of sum i.e number count
 //	printf("Number count is: %d",sum);
 	cout<<endl<<"Number count is: "<<sum;
-	
+	return 0;
 }
