@@ -1,2 +1,5 @@
-cout<<"The addition of two floats is: "<<add<float>(3.2f+5.6f)<<endl;
-    // cout<<"The addition of two doubles is: "<<add<double>(3.25+6.58)<<endl;
+m=(int)a;
+    // f=(int)b;
+    // g=(int)c;
+    // h=(int)d;
+    // i=(int)e;
