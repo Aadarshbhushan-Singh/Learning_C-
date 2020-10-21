@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 int main(){
+    //Vectors are dynamic array which have ability to resize itself automatically when element is added or removed.
     //Format: vector<Data Type> nameOfVector
     //Size of vector changes according to the necessicity
     //myVector.push_back() adds an element to the end of the vector and resizes it.
@@ -65,5 +66,37 @@ int main(){
         cout<<endl<<"Not empty"<<endl;
     }
 
+    //https://www.geeksforgeeks.org/vector-in-cpp-stl/ 
+    //Visit the above link for more operaions
+
+    vector<int> g1;
+    for (int i=0; i<5; i++){
+        g1.push_back(i);
+    }
+    // Whole vector output
+    for (int i=0; i<5; i++){
+        cout<<g1[i]<<" ";
+    }
+
+    //output of begin and end
+    cout<<endl<<"Output of begin and end."<<endl;
+    for (auto i=g1.begin(); i!=g1.end(); i++){
+        cout<<*i<<" ";
+    }
+    //output of cbegin and cend
+    cout<<endl<<"Output of cbegin and cend."<<endl;
+    for (auto i=g1.cbegin(); i!=g1.cend(); i++){
+        cout<<*i<<" ";
+    }
+    //Output of rbegin and r end
+    cout<<endl<<"Output of rbegin and rend."<<endl;
+    for (auto i=g1.rbegin(); i!=g1.rend(); i++){
+        cout<<*i<<" ";
+    }
+    //output of crbegin and crend
+    cout<<endl<<"Output of crbegin and crend. "<<endl;
+    for (auto i=g1.crbegin(); i!=g1.crend(); i++){
+        cout<<*i<<" ";
+    }
     return 0;
 };
