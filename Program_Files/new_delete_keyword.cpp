@@ -8,7 +8,7 @@ int main(){
     cout<<"Adress of a: "<<*ptr<<endl; //deferencing operator
 
     //new keyword
-    int *p=new int(40);
+    int *p=new int(40); //new means creating p where it will hold the adress of int 40
     cout<<"The value of p is: "<<*p<<endl;
     
     int *arr=new int[3];

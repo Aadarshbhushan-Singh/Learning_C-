@@ -20,7 +20,7 @@ template <typename typeOf> void swapping(typeOf x, typeOf y, typeOf z){
     y=z;
     z=t;
     cout<<"X: "<<x<<endl;
-    cout<<"Y: "<<y<<<endl;
+    cout<<"Y: "<<y<<<endl;  
     cout<<"Z: "<<z<<edndl;
 };
 int main(){

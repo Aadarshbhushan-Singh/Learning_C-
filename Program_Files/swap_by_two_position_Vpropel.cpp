@@ -18,7 +18,7 @@ int main(){
 		newArray[i+m]=array[i];
 	}
 	for (int i=0; i<n; i++){
-		cout<<newArray[i];
+		cout<<newArray[i]" ";
 	}
 	
 	return 0;
