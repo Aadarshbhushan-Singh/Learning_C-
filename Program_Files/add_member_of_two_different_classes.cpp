@@ -29,5 +29,6 @@ int main(){
     o1.setValue();
     o2.setValue();
     cout<<"Sum is: "<<add(o1, o2);
+    cout<<endl;
     return 0;
 };
